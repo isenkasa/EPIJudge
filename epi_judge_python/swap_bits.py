@@ -1,6 +1,5 @@
 from test_framework import generic_test
 
-
 def swap_bits(x, i, j):
     if (x >> i) & 1 != (x >> j) & 1:
         bit_mask = (1 << i) | (1 << j)
